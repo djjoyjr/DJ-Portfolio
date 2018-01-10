@@ -4,7 +4,10 @@ body {
 div#about-me.col.s6 {
   height: 625px;
 }
-
+div#about-me.row {
+  background-color: white;
+  color: #2f3e4f;
+}
 div.card {
   height: 275px;
   width: 275px;
@@ -12,7 +15,6 @@ div.card {
   display: inline-block;
   border-radius: 20px;
 }
-
 #bio {
   font-size: 25px;
 }
@@ -34,6 +36,10 @@ h2.section {
   font-size: 100px;
   margin: 0;
   padding: 0;
+  background-color: #2f3e4f;
+  color: whitesmoke;
+  border-radius: 20px;
+  text-align: center;
 }
 
 .slider-text {

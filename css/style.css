@@ -4,13 +4,15 @@ body {
 div#about-me.col.s6 {
   height: 625px;
 }
-.card {
+
+div.card {
   height: 275px;
   width: 275px;
-  border-radius: 20px;
   text-align: center;
   display: inline-block;
+  border-radius: 20px;
 }
+
 #bio {
   font-size: 25px;
 }
@@ -20,6 +22,7 @@ div#about-me.col.s6 {
   width: 200px;
   border-radius: 20px;
 }
+
 img.dj-pics.w3-animate-fading {
   border-radius: 25px;
   padding: 5px;

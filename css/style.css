@@ -17,17 +17,14 @@ div.card {
   margin-left: auto;
   margin-right: auto;
 }
-
 #bio {
   font-size: 25px;
 }
-
 .card-image {
   height: 150px;
   width: 150px;
   border-radius: 20px;
 }
-
 img.dj-pics.w3-animate-fading {
   border-radius: 25px;
   padding: 5px;
@@ -45,18 +42,15 @@ h2.section {
   border-radius: 20px;
   text-align: center;
 }
-
 .slider-text {
   font-family: 'Anton', sans-serif;
   font-size: 90px;
   font-style: bold;
 }
-
 .slider-subtext {
   font-family: 'Anton', sans-serif;
   font-size: 55px;
 }
-
 #webdev{
   color: pink;
   top: 5%;
@@ -75,11 +69,6 @@ h2.section {
   color: darkblue;
   text-shadow: 2px 2px white;
 }
-
-/* .slider-pic {
-  opacity: .4;
-}
- */
 .dj {
   font-family: 'Oswald', sans-serif;
   color: whitesmoke;
@@ -92,11 +81,9 @@ h2.section {
   margin: 0;
   padding-left: 3%
 }
-
 .text {
   color: red;
 }
-
 footer.footer.has-text-centered {
   text-align: center;
   width: 100%;
@@ -106,7 +93,6 @@ footer.footer.has-text-centered {
   font-family: 'Oswald', sans-serif;
   border-radius: 10px;
 }
-
 /* Bounce In */
 .hvr-bounce-in {
   display: inline-block;

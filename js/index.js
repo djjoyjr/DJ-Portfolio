@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   $('.slider').slider({
     height: 420,
     transition: 1000,
@@ -59,21 +60,21 @@ $(document).ready(function(){
     }
   }
 
-  var slideIndex = 0;
-  carousel();
 
-  function carousel() {
-      var i;
-      var x = document.getElementsByClassName("dj-pics");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > x.length) {slideIndex = 1}
-      x[slideIndex-1].style.display = "block";
-      setTimeout(carousel, 4000); // Change image every 4 seconds
-  }
+var slideIndex = 0;
+carousel();
 
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("dj-pics");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 4000); // Change image every 4 seconds
+}
 
   const phrases = [
     'Coder',
@@ -88,12 +89,9 @@ $(document).ready(function(){
   let counter = 0
   const next = () => {
     fx.setText(phrases[counter]).then(() => {
-      setTimeout(next, 5100)
+      setTimeout(next, 300)
     })
     counter = (counter + 1) % phrases.length
   }
   next()
-
-
-
 });

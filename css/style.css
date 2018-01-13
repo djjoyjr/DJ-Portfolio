@@ -7,6 +7,7 @@ div#about-me.col.s6 {
 div#about-me.row {
   background-color: white;
   color: #2f3e4f;
+  height: 625px;
 }
 div.card {
   height: 245px;
@@ -30,7 +31,7 @@ img.dj-pics.w3-animate-fading {
   padding: 5px;
   float:left;
   width: 100%;
-  max-height: 600px;
+  max-height: 625px;
 }
 h2.section {
   font-family: 'Anton', sans-serif;

@@ -44,30 +44,30 @@ h2.section {
 }
 .slider-text {
   font-family: 'Anton', sans-serif;
-  font-size: 90px;
+  font-size: 150px;
   font-style: bold;
 }
 .slider-subtext {
   font-family: 'Anton', sans-serif;
-  font-size: 55px;
+  font-size: 75px;
 }
 #webdev{
+  top: 3%;
   color: yellow;
-  top: 5%;
-  text-shadow: 3px 3px grey;
+  text-shadow: 5px 5px grey;
 }
 #philosopher {
-  top: 0%;
+  top: 0;
   color: black;
-  text-shadow: 4px 4px whitesmoke;
+  text-shadow: 5px 5px whitesmoke;
 }
 #problem-solver {
   color: orange;
-  text-shadow: 4px 4px black;
+  text-shadow: 5px 5px black;
 }
 #veteran {
   color: darkblue;
-  text-shadow: 2px 2px white;
+  text-shadow: 5px 5px white;
 }
 .dj {
   font-family: 'Oswald', sans-serif;

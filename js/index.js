@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $('.slider').slider({
-    height: 420,
+    height: 850,
     transition: 1000,
     interval: 5200
   });

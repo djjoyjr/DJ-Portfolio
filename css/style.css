@@ -1,18 +1,31 @@
 body {
   font-family: 'Oswald', sans-serif;
 }
+h1#email-form-head, label.active{
+  font-size: 2em;
+  color: black;
+}
 
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+}
 div.nav-wrapper{
   background-color: #2f3e4f;
 }
 #me-link, #project-link, #contact-link {
   font-size: 20px;
   color: white;
-  padding: 1em;
-  padding-top:  10%;
+  padding: .5em;
 }
 div#about-me.col.s6 {
   height: 625px;
+}
+div#my-projects.row{
+  margin-left: auto;
+  margin-right: auto;
 }
 div#about-me.row {
   background-color: white;
@@ -20,13 +33,11 @@ div#about-me.row {
   height: 625px;
 }
 div.card {
-  height: 245px;
-  width: 245px;
+  height: 22%;
+  width: 22%;
   text-align: center;
   display: inline-block;
   border-radius: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 #bio {
   font-size: 25px;
@@ -53,6 +64,8 @@ h2.section {
   color: whitesmoke;
   border-radius: 20px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .slider-text {
   font-family: 'Anton', sans-serif;

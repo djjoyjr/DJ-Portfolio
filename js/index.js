@@ -6,6 +6,10 @@ $(document).ready(function(){
     interval: 5200
   });
 
+  $('.tap-target').tapTarget('open');
+  $('.tap-target').tapTarget('close');
+        
+
   class TextScramble {
     constructor(el) {
       this.el = el

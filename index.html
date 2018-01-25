@@ -25,7 +25,7 @@
     <p class="dj">Hi, I'm DJ. I'm a: {
       <span class="text"></span> }
     </p>
-    <span class="right">
+    <span class="right valign-wrapper">
       <a href="#about-me" id="me-link">About Me</a>
       <a href="#my-projects" id="project-link">My Projects</a>
       <a href="#contact-me" id="contact-link">Contact Me</a>
@@ -86,7 +86,7 @@
             <p>I'm a philosopher turned web developer, Air Force veteran, dad/husband, and computer geek. I wrote my first computer program at age 6 in BASIC, I've worked with standalone DOS-based terminals, built gaming rigs for myself and friends, installed crude token ring LANs, and been a Crew Commander in charge of securing the networks of 16 Air Force bases and thousands of clients. After being a consumer of technology and dabbling with coding for decades, I decided to make a career out of it.</p>
         </div>
     </div> <!-- end of row -->
-    <div class="row" id="my-projects">
+    <div class="row center-align" id="my-projects">
       <div class="col s12">
         <h2 class="section">My Projects</h2>
           <div class="card">
@@ -115,7 +115,7 @@
           </div>
         </div>
       </div><!-- end of row -->
-    <div class="row">
+    <div class="row center-align">
       <div class="col s12">
         <div class="card">
           <div class="card-content">
@@ -141,6 +141,18 @@
               <a href="https://djjoyjr.github.io/latchkeyper/"><img class="card-image hvr-bounce-out" title="A web application for parents to communicate with their kids, assign and track chores, tasks, etc. with a points/reward system for completing tasks. Designed for parents of ‘latchkey’ kids." src="./images/atkey.png"  alt="Latchkeyper logo"></a>
           </div>
         </div>
+      </div>
+    </div><!-- end of row -->
+    <div class="row center-align">
+      <div class="col s12 email-form">
+        <h1 id="email-form-head"> Drop me a line if you want to chat, wax philosophical, grab a coffee, or offer me my dream job!</h1>
+        <form method="POST" action="http://formspree.io/djjoyjr@gmail.com">
+        <label>Your email:</label>
+        <input type="email" name="email" placeholder="e.g. turk@turkleton.com">
+        <label>Your message to me:</label>
+        <textarea name="message" placeholder="Here's something fascinating that will blow your mind, DJ!!!"></textarea>
+        <button type="submit">Send</button>
+        </form>
       </div>
     </div>
   </div>

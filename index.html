@@ -21,10 +21,15 @@
 </head>
 <body>
 
-  <div>
+  <div class="nav-wrapper">
     <p class="dj">Hi, I'm DJ. I'm a: {
       <span class="text"></span> }
     </p>
+    <span class="right">
+      <a href="#about-me" id="me-link">About Me</a>
+      <a href="#my-projects" id="project-link">My Projects</a>
+      <a href="#contact-me" id="contact-link">Contact Me</a>
+    </span>
   </div>
   <div class="slider">
       <ul class="slides">
@@ -81,7 +86,7 @@
             <p>I'm a philosopher turned web developer, Air Force veteran, dad/husband, and computer geek. I wrote my first computer program at age 6 in BASIC, I've worked with standalone DOS-based terminals, built gaming rigs for myself and friends, installed crude token ring LANs, and been a Crew Commander in charge of securing the networks of 16 Air Force bases and thousands of clients. After being a consumer of technology and dabbling with coding for decades, I decided to make a career out of it.</p>
         </div>
     </div> <!-- end of row -->
-    <div class="row">
+    <div class="row" id="my-projects">
       <div class="col s12">
         <h2 class="section">My Projects</h2>
           <div class="card">
@@ -92,8 +97,8 @@
           </div>
           <div class="card">
             <div class="card-content">
-              <p class="card-title">Latchkeyper</p>
-                <a href="https://djjoyjr.github.io/latchkeyper/"><img class="card-image hvr-bounce-out" title="A web application for parents to communicate with their kids, assign and track chores, tasks, etc. with a points/reward system for completing tasks. Designed for parents of ‘latchkey’ kids." src="./images/atkey.png"  alt="Latchkeyper logo"></a>
+              <p class="card-title">Buridian</p>
+                <a href="https://github.com/djjoyjr/Buridian"><img class="card-image hvr-bounce-out" title="A mobile application (for Android or iOS) that helps users decide where to eat." src="./images/buridian.png"  alt="Buridian logo"></a>
             </div>
           </div>
           <div class="card">
@@ -130,11 +135,17 @@
               <a href="https://djjoyjr.github.io/giphy-api/"><img class="card-image hvr-bounce-out" src="./images/oldtv.jpg"  title="Web application that uses API to giphy.com for TV show themed gifs." alt="TV Show gif API"></a>
           </div>
         </div>
+        <div class="card">
+          <div class="card-content">
+            <p class="card-title">Latchkeyper</p>
+              <a href="https://djjoyjr.github.io/latchkeyper/"><img class="card-image hvr-bounce-out" title="A web application for parents to communicate with their kids, assign and track chores, tasks, etc. with a points/reward system for completing tasks. Designed for parents of ‘latchkey’ kids." src="./images/atkey.png"  alt="Latchkeyper logo"></a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-<footer class="footer has-text-centered">
+<footer class="footer has-text-centered" id="contact-me">
   <a href="https://drive.google.com/open?id=16V0ne_89WfW7qQDtrlEXsNmghcCNrAB4N3y5jPqggG0"><img src="./images/resume.png" height="65" width="65" alt="Resume"  class="hvr-wobble-vertical" title="My Resume"></a>
   <a href="https://github.com/djjoyjr"><img src="./images/gh.png" height="65" width="65" alt="GitHub" class="hvr-wobble-vertical" title="Github"></a>
   <a href="https://www.linkedin.com/in/dj-joy"><img src="./images/li.png" height="65" width="65" alt="LinkedIn"  class="hvr-wobble-vertical" title="LinkedIn"></a>

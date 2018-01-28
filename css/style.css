@@ -71,12 +71,12 @@ h2.section {
 }
 .slider-text {
   font-family: 'Anton', sans-serif;
-  font-size: 150px;
+  font-size: 140px;
   font-style: bold;
 }
 .slider-subtext {
   font-family: 'Anton', sans-serif;
-  font-size: 75px;
+  font-size: 70px;
 }
 #webdev{
   top: 3%;
@@ -99,7 +99,7 @@ h2.section {
 .dj {
   font-family: 'Oswald', sans-serif;
   color: whitesmoke;
-  font-size: 70px;
+  font-size: 55px;
   text-shadow: 4px 4px black;
   background-color: #2f3e4f;
   display: inline-block;
